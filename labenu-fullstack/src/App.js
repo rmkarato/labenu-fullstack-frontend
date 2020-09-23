@@ -1,10 +1,12 @@
 import React from 'react';
+
 import "./assets/styles/global.css";
+import Router from "./routes";
 
 function App() {
   return (
-    <div>
-      <h1> Testando... </h1>
+    <div className="App">
+      <Router/>
     </div>
   );
 }
